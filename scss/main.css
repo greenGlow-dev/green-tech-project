@@ -1,0 +1,142 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "Itim", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 700px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: 1px gray solid;
+}
+
+.heading {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.user_profil {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 3px;
+}
+
+.user_profil img {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.user_profil h2 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 129%;
+  color: #000;
+}
+
+.user_profil p {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.site_bar {
+  width: 230px;
+  height: 100%;
+  padding: 50px 10px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+  color: white;
+  border-radius: 0 30px 30px 0;
+}
+
+.site_bar img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.list_item {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.list_item a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+.list_item a i {
+  color: #00ff00;
+}
+
+.list_item:hover {
+  transition: 0.2s;
+  background: rgba(98, 238, 110, 0.425);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  width: 100%;
+  border-radius: 10px;
+}
+.list_item:hover a {
+  color: #00ff00;
+}
+
+.app_container {
+  height: 100%;
+  width: 80%;
+}/*# sourceMappingURL=main.css.map */
