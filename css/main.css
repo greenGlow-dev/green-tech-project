@@ -11,4 +11,31 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.hero {
+  width: 100%;
+  padding: 20px 25px;
+}
+.hero .hero_boshlash {
+  padding: 10px;
+  width: 550px;
+  height: 300px;
+}
+.hero .hero_boshlash p {
+  width: 100%;
+  font-size: 20px;
+  color: grey;
+}
+.hero .hero_boshlash samp {
+  color: rgb(0, 255, 0);
+  font-size: 32.4px;
+}
+.hero .hero_boshlash::-moz-selection {
+  background: rgb(8, 255, 8);
+  color: white;
+}
+.hero .hero_boshlash::selection {
+  background: rgb(8, 255, 8);
+  color: white;
 }/*# sourceMappingURL=main.css.map */
