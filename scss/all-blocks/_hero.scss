@@ -1,0 +1,33 @@
+.hero{
+    width: 100%;
+    padding: 20px 25px;
+
+    .hero_boshlash{
+        padding: 10px;
+        width: 550px;
+        height: 300px;
+        // border: 1px solid red;
+        p{
+            width: 100%;
+            font-size: 20px;
+            color: grey;
+        }
+        samp{
+            color: rgb(0, 255, 0);
+            font-size: 32.4px;
+        }
+    }
+    .hero_boshlash::selection{
+        background: rgb(8, 255, 8);
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
