@@ -1,0 +1,67 @@
+.result {
+    background: #064e3b;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #4ade80;
+}
+
+.subtitle {
+    margin-bottom: 40px;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.note {
+    border: 2px dashed #4ade80;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: 0.3s;
+}
+
+.note b {
+  display: block;
+    font-size: 40px;
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+.note p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.note span {
+    color: #4ade80;
+}
+.highlight {
+    background: rgba(74, 222, 128, 0.1);
+    border-style: solid;
+    transform: translateY(-10px);
+}
+
+.note:hover {
+    background: #065f46;
+    border-color: #facc15;
+    transform: translateY(-5px);
+
+}
+.highlight:hover{
+    transform: translateY(+5px);
+
+}
