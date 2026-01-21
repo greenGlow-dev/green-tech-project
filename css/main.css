@@ -153,18 +153,42 @@ body {
 .hero {
   width: 100%;
   padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
-.hero .hero_boshlash {
+.hero img{
+  width: 400px;
+  height:300px;
+}
+.hero_boshlash {
   padding: 10px;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 650px;
+  height: 300px;
+>>>>>>> origin/Abdulla
+}
+.hero_boshlash h1{
+  font-size: 30px;
+  font-family: sans-serif;
 }
 .hero .hero_boshlash p {
+<<<<<<< HEAD
   width: 100%;
   font-size: 30px;
+=======
+  font-size: 20px;
+>>>>>>> origin/Abdulla
   color: grey;
+font-family: sans-serif;
+
 }
 .hero .hero_boshlash samp {
   color: rgb(0, 255, 0);
+<<<<<<< HEAD
   font-size: 40px;
 }
 .hero .hero_boshlash::-moz-selection {
@@ -239,3 +263,9 @@ body {
   font-size: 20px;
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
+=======
+  /* font-size: 32.4px; */
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
+>>>>>>> origin/Abdulla

@@ -1,0 +1,88 @@
+/* Asosiy konteyner */
+.about-section {
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.about-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #2cd116;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.hero-image img {
+    max-width: 300px;
+}
+
+.about_card_wrapper {
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.about-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    border-color: #4CAF50;
+}
+
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-card h3 {
+    color: #2d5a27;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    font-size: 0.95rem;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-stats {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.card-stats span {
+    font-size: 1.2rem;
+}
+
+.sub-text {
+    font-size: 0.8rem;
+    color: #999;
+    display: block;
+    margin-top: 5px;
+}

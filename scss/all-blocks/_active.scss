@@ -1,0 +1,59 @@
+/* Oddiy va toza uslub */
+.active-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.title {
+    font-size: 28px;
+    color: #1a5c37;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left: 5px solid #2ecc71;
+}
+
+.active_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.active_card {
+    background: #ffffff;
+    border: 1px solid #e1e8e1;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s ease;
+}
+
+.active_card:hover {
+    border-color: #2ecc71;
+    background-color: #f9fffb;
+}
+
+.active_card h3 {
+    margin: 0 0 10px 0;
+    color: #1a5c37;
+    font-size: 1.25rem;
+}
+
+.active_card p {
+    margin: 0;
+    color: #556b5f;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #27ae60;
+    background: #eefdf5;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
