@@ -141,23 +141,31 @@ body {
   width: 80%;
 }
 
+<<<<<<< HEAD
+=======
+.faollar {
+  width: 100%;
+  height: 100px;
+  border: 1px solid red;
+}
+
+>>>>>>> origin/Umidjon
 .hero {
   width: 100%;
   padding: 20px 25px;
 }
 .hero .hero_boshlash {
   padding: 10px;
-  width: 550px;
-  height: 300px;
+  width: 100%;
 }
 .hero .hero_boshlash p {
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   color: grey;
 }
 .hero .hero_boshlash samp {
   color: rgb(0, 255, 0);
-  font-size: 32.4px;
+  font-size: 40px;
 }
 .hero .hero_boshlash::-moz-selection {
   background: rgb(8, 255, 8);

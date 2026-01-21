@@ -4,17 +4,16 @@
 
     .hero_boshlash{
         padding: 10px;
-        width: 550px;
-        height: 300px;
+        width: 100%;
         // border: 1px solid red;
         p{
             width: 100%;
-            font-size: 20px;
+            font-size: 30px;
             color: grey;
         }
         samp{
             color: rgb(0, 255, 0);
-            font-size: 32.4px;
+            font-size: 40px;
         }
     }
     .hero_boshlash::selection{
