@@ -48,4 +48,40 @@ function newAdd() {
     }
 }
 
+
+
+
 newAdd();
+// let id = document.getElementById("site_bar_id");
+// let id = document.getElementById("header")
+// function loadComponent(id, file) {
+//   fetch(file)
+//     .then(res => res.text())
+//     .then(data => {
+//       document.getElementById(id).innerHTML = data;
+//     });
+// }
+
+// loadComponent("header", "./components/header.html");
+// loadComponent("sidebar", "components/sidebar.html");
+// loadComponent("footer", "components/footer.html");
+
+
+
+// Funksiya faqat o'ziga kelgan argumentlar bilan ishlaydi
+function loadComponent(elementId, filePath) {
+    fetch(filePath)
+        .then(response => response.text())
+        .then(htmlContent => {
+            const container = document.getElementById(elementId);
+            if (container) {
+                container.innerHTML = htmlContent;
+            }
+        })
+        .catch(error => console.error("Xatolik yuz berdi:", error));
+}
+
+// Chaqirish (global o'zgaruvchilarsiz)
+loadComponent("header", "./components/header.html");
+loadComponent("sidebar", "./components/sidebar.html");
+loadComponent("footer", "./components/footer.html");
